@@ -91,13 +91,35 @@ div#box .box-top{
     padding: 5px;
     padding-left: 15px;
     font-weight: 300;
-    width: 200px;
-    float: left;    
+       
     }
 div#box .box-panel{
     
-    width: 200px;
+    
     padding: 15px;
     background-color: #fff;
+    height: 150px;
 
+}
+.box-photo
+{
+    width: 200px;
+    padding: 15px;
+    background-color: #000; 
+}
+a.mobile{
+display: block;
+color: #fff;
+background-color: #000;
+text-align: center;
+padding: 7px;
+}
+a.mobile :active
+{
+background-color: #4a4a4a;
+}
+@media only screen and (max-width : 320px){
+    body{
+        display: none;
+    }
 }
